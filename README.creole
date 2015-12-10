@@ -1,0 +1,12 @@
+==December 10th, 2015 - Project Overview
+My plan for this [[http://www.retrochallenge.org | Retrochallenge]] project is to get a start on the design of a
+cartridge for my TRS-80 Color Computer 2.
+
+Goals for this time around:
+* Nail down the functionality that I was from this cartridge.
+* Order parts.
+* Complete schematic capture and PCB layout.
+* Get board professionally made.
+
+If I am lucky I will get to soldering up the board in January but really I just want to be ready to put the cartridge
+hardware through its paces during the July Retrochallenge.
