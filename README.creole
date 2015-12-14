@@ -3,7 +3,7 @@ My plan for this [[http://www.retrochallenge.org | Retrochallenge]] project is t
 cartridge for my TRS-80 Color Computer 2.
 
 Goals for this time around:
-* Nail down the functionality that I was from this cartridge.
+* Nail down the functionality that I want from this cartridge.
 * Complete schematic capture and PCB layout.
 * Order parts.
 * Get board professionally made.
