@@ -1,3 +1,89 @@
+==January 8th, 2016 - Slow Start!
+I am getting off to a slow start for this Retrochallenge.  I am not at the point that I have anything to show yet but I
+thought I would give some more details on what I hope to accomplish for this month's challenge.
+
+My main goal is to connect a 32-bit 120MHz NXP LPC1769 Cortex-M3 microcontroller to a Tandy CoCo2 through the 40-pin
+cartridge port.  Why would I want to do that?
+* Why Not?
+* Get more PCB design experience.  I have done quite a bit of protoboard work for my hobby embedded projects over the
+  last 5+ years but it has been some time since I actually fired up [[http://www.cadsoftusa.com | Eagle CAD]] and did a
+  proper schematic and layout.
+* Build a cartridge that is flexible enough to explore some CoCo hardware ideas I have had:
+** Hardware debugger.
+** Serial connection between CoCo and PC via USB.
+** Floppy drive simulation.
+** Hard drive simulation.
+** Multi-bank ROM cartridge.
+** **And More!**
+
+I don't expect to actually explore the above ideas this month but I want to get the hardware in place to make it
+possible for future Retrochallenge events.
+
+===Mapping CoCo Signals to LPC1769
+One of the first things I had to do was figure out what functionality of the LPC1769 I wanted to exploit in this
+project.  The four LPC1769 peripherals that I wanted to take advantage of for this project include:
+# USB for connectivity to PC.
+# Ethernet for higher speed (100Mb/s versus USB's 12Mb/s) connectivity to PC.
+# DAC for generating sound.
+# SSP to communicate via SPI to a uSD card.
+
+After reserving pins for the use of the Ethernet, USB, and SSP peripherals (wowser Ethernet uses a lot of pins to talk
+to the PHY chip), I came up with the following mapping of CoCo signals to LPC1769 pins:
+|= Cartridge Pin |= Name  |= LPC1769 Pin |= Notes |
+| 1              | -12V   | NC           | Only connected on CoCo1 |
+| 2              |  12V   | NC           | Only connected on CoCo1 |
+| 3              | HALT*  | P3_25        | ->CoCo |
+| 4              | NMI*   | P3_26        | ->CoCo |
+| 5              | RESET* | P2_11        | Potential interrupt source |
+| 6              | E      | P2_12        | Potential interrupt source |
+| 7              | Q      | P2_13        | Potential interrupt source |
+| 8              | CART*  | P4_28        | ->CoCo |
+| 9              | +5V    | NC           | Powers 3.3V voltage regulator |
+| 10             | D0     | P2_0         | D0-D7 on lowest 8-bits of Port 2 |
+| 11             | D1     | P2_1         | |
+| 12             | D2     | P2_2         | |
+| 13             | D3     | P2_3         | |
+| 14             | D4     | P2_4         | |
+| 15             | D5     | P2_5         | |
+| 16             | D6     | P2_6         | |
+| 17             | D7     | P2_7         | |
+| 18             | R/W*   | P0_0         | Same port as A0-A15 |
+| 19             | A0     | P0_4         | Too bad A0-A15 aren't on contiguous pins |
+| 20             | A1     | P0_5         | |
+| 21             | A2     | P0_6         | |
+| 22             | A3     | P0_7         | |
+| 23             | A4     | P0_8         | |
+| 24             | A5     | P0_9         | |
+| 25             | A6     | P0_10        | |
+| 26             | A7     | P0_11        | |
+| 27             | A8     | P0_16        | |
+| 28             | A9     | P0_17        | |
+| 29             | A10    | P0_18        | |
+| 30             | A11    | P0_19        | |
+| 31             | A12    | P0_20        | |
+| 32             | CTS*   | P0_24        | Same port as A0-A15 |
+| 33             | GND    | GND          | |
+| 34             | GND    | GND          | |
+| 35             | SND    | P0_26        | DAC pin to allow output of digitized sounds |
+| 36             | SCS*   | P0_25        | Same port as A0-A15 |
+| 37             | A13    | P0_21        | |
+| 38             | A14    | P0_22        | |
+| 39             | A15    | P0_23        | |
+| 40             | SLENB* | P4_29        | ->CoCo |
+
+===Working on Schematic Capture
+I started getting back up to speed on Eagle at the beginning of the week and the schematic capture for the cartridge is
+now in full swing.  I will issue an update here when I finish the schematic for this project.
+
+===Useful CoCo Cartridge Links
+I have found the following sites to be helpful as I work on this project:\\
+[[http://www.nf6x.net/2013/10/cocoeprompak/]]: Mark J. Blair's CoCoEPROMpak blog.\\
+[[https://github.com/NF6X/CoCoEPROMpak]]: gihub repository containing Eagle project files for Mark J. Blair's CoCoEPROMpak.\\
+[[http://retrotinker.blogspot.com]]: John Linville's Retro Tinker blog which includes his Retrochallenge 2015/07 cartridge related project.\\
+[[http://fahrfall.blogspot.com]]: John Linville's Fahrfall blog which includes cartridge creation back in Retrochallenge 2014/07.\\
+
+
+
 ==December 10th, 2015 - Project Overview
 My plan for this [[http://www.retrochallenge.org | Retrochallenge]] project is to get a start on the design of a
 cartridge for my TRS-80 Color Computer 2.
