@@ -1,0 +1,28 @@
+Partlist exported from /Users/adamgreen/Documents/eagle/projects/CoCoCartridge/cococartridge.sch at 1/11/16 1:07 AM
+
+Qty Value                Device               Package            Parts                                                               Description
+1   1.5k                 RESISTOR0805-RES     0805               R5                                                                  Resistor
+15  100n                 CAP0805              0805               C1, C2, C3, C4, C5, C8, C13, C14, C15, C17, C18, C19, C20, C21, C22 Capacitor
+1   100p                 CAP0805              0805               C9                                                                  Capacitor
+2   10k                  RESISTOR0805-RES     0805               R1, R3                                                              Resistor
+4   10u                  CAP_POL1206          EIA3216            C6, C7, C12, C16                                                    Capacitor Polarized
+2   18p                  CAP0805              0805               C10, C11                                                            Capacitor
+1   18u                  INDUCTOR1210         1210               L1                                                                  Inductors
+2   270                  RESISTOR0805-RES     0805               R16, R17                                                            Resistor
+3   2k                   RESISTOR0805-RES     0805               R9, R10, R11                                                        Resistor
+2   33                   RESISTOR0805-RES     0805               R6, R7                                                              Resistor
+1   4.87k                RESISTOR0805-RES     0805               R8                                                                  Resistor
+4   49.9                 RESISTOR0805-RES     0805               R12, R13, R14, R15                                                  Resistor
+1   ASE-12.000MHZ-LC-T   ASE                  ASE                U$1                                                                 3.3Vdc CMOS SMD CRYSTAL CLOCK OSCILLATOR
+1   ASE-50.000MHZ-LC-T   ASE                  ASE                U$2                                                                 3.3Vdc CMOS SMD CRYSTAL CLOCK OSCILLATOR
+1   BSS84                BSS84                SOT23              Q1                                                                  P-CHANNEL MOS FET
+1   COCO-CART            COCO-CART            COCO-CART-2.1X1.75 P1                                                                  Tandy/TRS-80 Color Computer Cartridge Connector
+1   DP83848C             DP83848C             LQFP48             IC3                                                                 PHYTER® - Extended Temperature Single Port 10/100 Mb/s Ethernet Physical Layer Transceiver
+1   FTDI                 PINHD-1X6            1X06               JP1                                                                 PIN HEADER
+1   JTAG                 FTSH-105             FTSH-105           JP2                                                                 Semtec FSH-105 2x5 SMT Micro Header
+2   JUMPER-1206          JUMPER-1206          1206               JP3, JP4                                                            Jumper based on 1206 SMT pads
+1   LD1117S33            LD117AS33TR          SOT223             IC2                                                                 Low drop fixed and adjustable positive voltage regulators 1 A
+1   LPC1769              LPC1769              LQFP100-14X14      IC1                                                                 LPC1769 120 MHz 32-bit ARM Cortex-M3 based microcontroller featuring a high level of integration and low power consumption. 512 kB Flash, 64 kB SRAM, USB Device/Host/OTG, 2 CAN, DAC, Ethernet MarcVl - Datasheet available on www.nxp.com
+1   MINI-USB-UX60-MB-5ST MINI-USB-UX60-MB-5ST UX60-MB-5ST        X1                                                                  MINI USB Connector
+1   RB1-125BAG1A         RB1-125BAG1A         RB1-125BAG1A       ETH_MAGJACK                                                         MagJack RB1-125BAG1A
+1   USD-SOCKETNEW        USD-SOCKETNEW        MICRO-SD-SOCKET-PP U1                                                                  microSD Socket

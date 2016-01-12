@@ -1,0 +1,2 @@
+<b>TRS-80 Color Computer Cartridge</b><p>
+January 2016 Retrochallenge project to create a cartridge for the TRS-80 Color Computer to interface a NXP LPC1769 to the CoCo hardware.  The LPC1769 will use USB and Ethernet to communicate with the outside world.
