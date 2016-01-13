@@ -1,3 +1,76 @@
+==January 13th, 2016 - Some Progress!
+===Schematic Completed
+{{https://raw.githubusercontent.com/adamgreen/Retrochallenge-2016-January/master/images/20160112-01.png}}\\
+[[https://github.com/adamgreen/Retrochallenge-2016-January/blob/master/CoCoCartridge/Schematic.pdf | Full scale PDF]]
+
+I completed the schematic capture for my CoCo cartridge earlier this week and the Eagle CAD project containing it can be
+found [[https://github.com/adamgreen/Retrochallenge-2016-January/tree/master/CoCoCartridge | here]].  My schematic is
+heavily based on this [[http://mbed.org/media/uploads/chris/mbed-005.1.pdf | ARM mbed-1768 schematic]].  I have been
+using these [[https://developer.mbed.org/platforms/mbed-LPC1768/ | NXP LPC1768 based mbed modules]] in many of my
+embedded projects over the last few years so using the LPC1769, a 120MHz version of the 100MHz LPC1768, was the path of
+least resistance for me.  I decided to design my own PCB for this project to force myself to relearn the process, to get
+my first experience at having my own PCB design professionally made (In the past I have etched my own boards which were
+mostly through-hole designs), and to give me access to more pins on the LPC176x device.
+
+Some notes about my CoCo cartridge design so far:
+* It uses a 120 MHz NXP LPC1769 ARM Cortex-M3 microcontroller with 512k of FLASH and 64k of SRAM.
+* The CoCo is 5V and the LPC1769 is 3.3V but the microcontroller pins connected to the cartridge edge connector are all
+  5V tolerant.  This means that the 5V signals from the CoCo hardware will cause no problems for the microcontroller.
+  Everything should work fine as long as all of the CoCo hardware on the bus will see 3.3V signals from the LPC1768 as a
+  high value representing a 1 and not a 0.
+* I have included a USB mini-B connector in my design.  This will allow the LPC1769 to be connected to the PC and act as
+  a full-speed (12 Mbit/sec) USB device.
+* The design includes a TI DP83848C Ethernet PHY chip and Ethernet Jack (with magnetics) capable of 10/100 Mbit/sec
+  communications.  This will make it possible for the LPC1769 to communicate with the PC via UDP and/or TCP as well.
+* I connected the single DAC output pin of the LPC1769 to the SND pin on the CoCo cartridge edge connector.  The analog
+  voltage range of 0-3.3V should be ok for the CoCo; it just won't generate the full volume range possible.  This makes
+  it good enough for experimentation and later I would add an amplifier in future revisions to obtain the full 0-5V
+  range.
+* There is also a socket on the board to allow modern uSD cards to be accessed via the LPC1769's SSP0 peripheral.
+* I included a 6-pin 0.1" pin header in the design so that I can connect a
+  [[https://www.sparkfun.com/products/9717 | FTDI cable]] to the LPC1769's UART0 for debugging and/or ISP programming.
+* Added pads to nReset and ISP pins so that the device can be brought up in ISP programming mode if needed.
+* Also added a 2x5 JTAG/SWD header so that I can connect my
+  [[https://www.adafruit.com/products/2209 | J-Link debugger module]].  This will be my preferred method for debugging
+  and programming but the UART gives me a backup plan.
+
+I utilized or extended parts from these fine github repositories when creating my schematic:\\
+[[https://github.com/NF6X/CoCoEPROMpak | Mark J. Blair's CoCoEPROMpak Eagle Project]]\\
+[[https://github.com/sparkfun/SparkFun-Eagle-Libraries | SparkFun's Eagle Libraries]]\\
+[[https://github.com/adafruit/Adafruit-Eagle-Library | Adafruit's Eagle Library]]\\
+[[https://github.com/4jochen/WIZ820io-Piggyback-RaspberryPi]]\\
+
+===DigiKey Order Placed
+Once I had completed my schematic for the CoCo cartridge, I ordered up the components from
+[[http://www.digikey.com | DigiKey Electronics]].  I should have them on hand by the time I finish the PCB layout so
+that I can verify the device footprints before sending off to have the boards made.
+
+My order included:
+|= Quantity |= Part Number        |=Description                                             |= Unit Price |
+| 1         | 568-4966-ND         | LPC1769FBD100,551 - IC MCU ARM 512KB FLASH 100LQFP      | 11.19000 |
+| 1         | DP83848CVV/NOPB-ND  | DP83848CVV/NOPB - IC TXRX ETHERNET PHYTER 48-LQFP       | 5.13000 |
+| 1         | SAM8799-ND          | FTSH-105-01-L-DV-K - CONN HEADER 10 POS DUAL .05" SMD   | 3.25000 |
+| 1         | 1278-1011-ND        | RB1-125BAG1A - CONN MAGJACK 1PORT 100 BASE-T            | 2.55000 |
+| 1         | 101-00660-68-6-1-ND | 101-00660-68-6 - CONN MICRO SD CARD PUSH-PUSH R/A       | 1.82000 |
+| 1         | 535-9561-1-ND       | ASE-12.000MHZ-LC-T - OSC XO 12.000MHZ CMOS SMD          | 1.37000 |
+| 1         | 535-9577-1-ND       | ASE-50.000MHZ-LC-T - OSC XO 50.000MHZ CMOS SMD          | 1.37000 |
+| 1         | H2959CT-ND          | UX60-MB-5ST - CONN RECEPT MINI USB2.0 5POS              | 1.07000 |
+| 1         | 497-1242-1-ND       | LD1117S33TR - IC REG LDO 3.3V 0.8A SOT223               | 0.46000 |
+| 1         | 495-5639-1-ND       | B82422A1183K100 - FIXED IND 18UH 155MA 2 OHM SMD        | 0.46000 |
+| 4         | 399-3683-1-ND       | T491A106K006AT - CAP TANT 10UF 6.3V 10% 1206            | 0.30800 |
+| 1         | BSS84CT-ND          | BSS84 - MOSFET P-CH 50V 130MA SOT-23                    | 0.23000 |
+| 2         | 399-8030-1-ND       | C0805C180K5GACTU - CAP CER 18PF 50V NP0 0805            | 0.10000 |
+| 1         | P4.87KCCT-ND        | ERJ-6ENF4871V - RES SMD 4.87K OHM 1% 1/8W 0805          | 0.10000 |
+| 4         | P49.9CCT-ND         | ERJ-6ENF49R9V - RES SMD 49.9 OHM 1% 1/8W 0805           | 0.10000 |
+
+===What Next?
+I now need to get back into Eagle and start laying out the PCB.  Given my current schedule, I think I will complete the
+PCB design and get it sent off to [[https://oshpark.com | OSH Park]] for manufacturing before the end of this
+Retrochallenge event but they won't be manufactured in time.  I guess I know what I will be doing for
+Retrochallenge-2016-July!
+
+
+
 ==January 8th, 2016 - Slow Start!
 I am getting off to a slow start for this Retrochallenge.  I am not at the point that I have anything to show yet but I
 thought I would give some more details on what I hope to accomplish for this month's challenge.
