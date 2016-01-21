@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -912,6 +912,143 @@ Source: http://www.national.com/ds/DP/DP83848VYB.pdf</description>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="COCO-CART-3.5X2.5">
+<description>&lt;H1&gt;Color Computer Cartridge, 3.5" x 2.5"&lt;/H1&gt;
+
+&lt;P&gt;Edge connector with PCB outline for Tandy/TRS-80 Color Computer cartridge slot:
+
+&lt;P&gt;&lt;UL&gt;
+&lt;LI&gt;Width is 3.5".
+&lt;LI&gt;Length is 2.5".
+&lt;LI&gt;With mounting holes and keepouts for installation in Program Pak housing.
+&lt;LI&gt;Almost completely fills standard Color Computer game cartridge cases.
+&lt;/UL&gt;</description>
+<wire x1="18.034" y1="9.906" x2="18.034" y2="1.27" width="0.127" layer="20"/>
+<wire x1="18.034" y1="1.27" x2="19.304" y2="0" width="0.127" layer="20" curve="90"/>
+<wire x1="19.304" y1="0" x2="69.596" y2="0" width="0.127" layer="20"/>
+<wire x1="69.596" y1="0" x2="70.866" y2="1.27" width="0.127" layer="20" curve="90"/>
+<wire x1="70.866" y1="1.27" x2="70.866" y2="9.906" width="0.127" layer="20"/>
+<rectangle x1="17.78" y1="0" x2="71.12" y2="10.16" layer="29"/>
+<rectangle x1="17.78" y1="0" x2="71.12" y2="10.16" layer="30"/>
+<rectangle x1="52.07" y1="38.1" x2="55.88" y2="41.91" layer="39"/>
+<rectangle x1="17.78" y1="0" x2="19.685" y2="10.16" layer="41"/>
+<rectangle x1="20.955" y1="0" x2="22.225" y2="10.16" layer="41"/>
+<rectangle x1="23.495" y1="0" x2="24.765" y2="10.16" layer="41"/>
+<rectangle x1="26.035" y1="0" x2="27.305" y2="10.16" layer="41"/>
+<rectangle x1="28.575" y1="0" x2="29.845" y2="10.16" layer="41"/>
+<rectangle x1="31.115" y1="0" x2="32.385" y2="10.16" layer="41"/>
+<rectangle x1="33.655" y1="0" x2="34.925" y2="10.16" layer="41"/>
+<rectangle x1="36.195" y1="0" x2="37.465" y2="10.16" layer="41"/>
+<rectangle x1="38.735" y1="0" x2="40.005" y2="10.16" layer="41"/>
+<rectangle x1="41.275" y1="0" x2="42.545" y2="10.16" layer="41"/>
+<rectangle x1="43.815" y1="0" x2="45.085" y2="10.16" layer="41"/>
+<rectangle x1="46.355" y1="0" x2="47.625" y2="10.16" layer="41"/>
+<rectangle x1="48.895" y1="0" x2="50.165" y2="10.16" layer="41"/>
+<rectangle x1="51.435" y1="0" x2="52.705" y2="10.16" layer="41"/>
+<rectangle x1="53.975" y1="0" x2="55.245" y2="10.16" layer="41"/>
+<rectangle x1="56.515" y1="0" x2="57.785" y2="10.16" layer="41"/>
+<rectangle x1="59.055" y1="0" x2="60.325" y2="10.16" layer="41"/>
+<rectangle x1="61.595" y1="0" x2="62.865" y2="10.16" layer="41"/>
+<rectangle x1="64.135" y1="0" x2="65.405" y2="10.16" layer="41"/>
+<rectangle x1="66.675" y1="0" x2="67.945" y2="10.16" layer="41"/>
+<rectangle x1="69.215" y1="0" x2="71.12" y2="10.16" layer="41"/>
+<rectangle x1="17.78" y1="0" x2="19.685" y2="10.16" layer="42"/>
+<rectangle x1="20.955" y1="0" x2="22.225" y2="10.16" layer="42"/>
+<rectangle x1="23.495" y1="0" x2="24.765" y2="10.16" layer="42"/>
+<rectangle x1="26.035" y1="0" x2="27.305" y2="10.16" layer="42"/>
+<rectangle x1="28.575" y1="0" x2="29.845" y2="10.16" layer="42"/>
+<rectangle x1="31.115" y1="0" x2="32.385" y2="10.16" layer="42"/>
+<rectangle x1="33.655" y1="0" x2="34.925" y2="10.16" layer="42"/>
+<rectangle x1="36.195" y1="0" x2="37.465" y2="10.16" layer="42"/>
+<rectangle x1="38.735" y1="0" x2="40.005" y2="10.16" layer="42"/>
+<rectangle x1="41.275" y1="0" x2="42.545" y2="10.16" layer="42"/>
+<rectangle x1="43.815" y1="0" x2="45.085" y2="10.16" layer="42"/>
+<rectangle x1="46.355" y1="0" x2="47.625" y2="10.16" layer="42"/>
+<rectangle x1="48.895" y1="0" x2="50.165" y2="10.16" layer="42"/>
+<rectangle x1="51.435" y1="0" x2="52.705" y2="10.16" layer="42"/>
+<rectangle x1="53.975" y1="0" x2="55.245" y2="10.16" layer="42"/>
+<rectangle x1="56.515" y1="0" x2="57.785" y2="10.16" layer="42"/>
+<rectangle x1="59.055" y1="0" x2="60.325" y2="10.16" layer="42"/>
+<rectangle x1="61.595" y1="0" x2="62.865" y2="10.16" layer="42"/>
+<rectangle x1="64.135" y1="0" x2="65.405" y2="10.16" layer="42"/>
+<rectangle x1="66.675" y1="0" x2="67.945" y2="10.16" layer="42"/>
+<rectangle x1="69.215" y1="0" x2="71.12" y2="10.16" layer="42"/>
+<smd name="1" x="20.32" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="2" x="20.32" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="3" x="22.86" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="4" x="22.86" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="5" x="25.4" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="6" x="25.4" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="7" x="27.94" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="8" x="27.94" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="9" x="30.48" y="6.35" dx="1.27" dy="6.985" layer="1" cream="no"/>
+<smd name="10" x="30.48" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="11" x="33.02" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="12" x="33.02" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="13" x="35.56" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="14" x="35.56" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="15" x="38.1" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="16" x="38.1" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="17" x="40.64" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="18" x="40.64" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="19" x="43.18" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="20" x="43.18" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="21" x="45.72" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="22" x="45.72" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="23" x="48.26" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="24" x="48.26" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="25" x="50.8" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="26" x="50.8" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="27" x="53.34" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="28" x="53.34" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="29" x="55.88" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="30" x="55.88" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="31" x="58.42" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="32" x="58.42" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="33" x="60.96" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="34" x="60.96" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="35" x="63.5" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="36" x="63.5" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="37" x="66.04" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="38" x="66.04" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<smd name="39" x="68.58" y="5.207" dx="1.27" dy="9.525" layer="1" cream="no"/>
+<smd name="40" x="68.58" y="5.207" dx="1.27" dy="9.525" layer="16" cream="no"/>
+<pad name="MTG1" x="21.7805" y="18.415" drill="3.6068" diameter="5.715"/>
+<pad name="MTG2" x="67.1195" y="18.415" drill="3.6068" diameter="5.715"/>
+<text x="22.86" y="10.795" size="1.778" layer="25" font="vector">&gt;NAME</text>
+<text x="20.32" y="10.795" size="1.27" layer="21" font="vector" align="bottom-center">1</text>
+<text x="68.58" y="10.795" size="1.27" layer="21" font="vector" align="bottom-center">39</text>
+<text x="20.32" y="10.795" size="1.27" layer="22" font="vector" rot="MR0" align="bottom-center">2</text>
+<text x="68.58" y="10.795" size="1.27" layer="22" font="vector" rot="MR0" align="bottom-center">40</text>
+<wire x1="18.034" y1="9.906" x2="17.78" y2="10.16" width="0.127" layer="20" curve="90"/>
+<wire x1="17.78" y1="10.16" x2="1.27" y2="10.16" width="0.127" layer="20"/>
+<wire x1="1.27" y1="10.16" x2="0" y2="11.43" width="0.127" layer="20" curve="-90"/>
+<wire x1="70.866" y1="9.906" x2="71.12" y2="10.16" width="0.127" layer="20" curve="-90"/>
+<wire x1="71.12" y1="10.16" x2="87.63" y2="10.16" width="0.127" layer="20"/>
+<wire x1="87.63" y1="10.16" x2="88.9" y2="11.43" width="0.127" layer="20" curve="90"/>
+<wire x1="0" y1="63.5" x2="88.9" y2="63.5" width="0.127" layer="20"/>
+<wire x1="0" y1="63.5" x2="0" y2="11.43" width="0.127" layer="20"/>
+<wire x1="88.9" y1="63.5" x2="88.9" y2="11.43" width="0.127" layer="20"/>
+<polygon width="0.127" layer="40">
+<vertex x="39.37" y="42.545" curve="-90"/>
+<vertex x="44.45" y="47.625" curve="-90"/>
+<vertex x="49.53" y="42.545" curve="-90"/>
+<vertex x="44.45" y="37.465" curve="-90"/>
+</polygon>
+<hole x="44.45" y="42.545" drill="6.985"/>
+<polygon width="0.127" layer="41">
+<vertex x="39.37" y="42.545" curve="-90"/>
+<vertex x="44.45" y="47.625" curve="-90"/>
+<vertex x="49.53" y="42.545" curve="-90"/>
+<vertex x="44.45" y="37.465" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="39.37" y="42.545" curve="-90"/>
+<vertex x="44.45" y="47.625" curve="-90"/>
+<vertex x="49.53" y="42.545" curve="-90"/>
+<vertex x="44.45" y="37.465" curve="-90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="COCO-CART">
@@ -1192,6 +1329,55 @@ Based on Mark J. Blair's CoCo cartridge Eagle project found here: https://github
 </gates>
 <devices>
 <device name="" package="COCO-CART-2.1X1.75">
+<connects>
+<connect gate="G$1" pin="!CART" pad="8"/>
+<connect gate="G$1" pin="!CTS" pad="32"/>
+<connect gate="G$1" pin="!HALT" pad="3"/>
+<connect gate="G$1" pin="!NMI" pad="4"/>
+<connect gate="G$1" pin="!RESET" pad="5"/>
+<connect gate="G$1" pin="!SCS" pad="36"/>
+<connect gate="G$1" pin="!SLENB" pad="40"/>
+<connect gate="G$1" pin="+12V" pad="2"/>
+<connect gate="G$1" pin="+5V" pad="9"/>
+<connect gate="G$1" pin="-12V" pad="1"/>
+<connect gate="G$1" pin="A0" pad="19"/>
+<connect gate="G$1" pin="A1" pad="20"/>
+<connect gate="G$1" pin="A10" pad="29"/>
+<connect gate="G$1" pin="A11" pad="30"/>
+<connect gate="G$1" pin="A12" pad="31"/>
+<connect gate="G$1" pin="A13" pad="37"/>
+<connect gate="G$1" pin="A14" pad="38"/>
+<connect gate="G$1" pin="A15" pad="39"/>
+<connect gate="G$1" pin="A2" pad="21"/>
+<connect gate="G$1" pin="A3" pad="22"/>
+<connect gate="G$1" pin="A4" pad="23"/>
+<connect gate="G$1" pin="A5" pad="24"/>
+<connect gate="G$1" pin="A6" pad="25"/>
+<connect gate="G$1" pin="A7" pad="26"/>
+<connect gate="G$1" pin="A8" pad="27"/>
+<connect gate="G$1" pin="A9" pad="28"/>
+<connect gate="G$1" pin="D0" pad="10"/>
+<connect gate="G$1" pin="D1" pad="11"/>
+<connect gate="G$1" pin="D2" pad="12"/>
+<connect gate="G$1" pin="D3" pad="13"/>
+<connect gate="G$1" pin="D4" pad="14"/>
+<connect gate="G$1" pin="D5" pad="15"/>
+<connect gate="G$1" pin="D6" pad="16"/>
+<connect gate="G$1" pin="D7" pad="17"/>
+<connect gate="G$1" pin="E" pad="6"/>
+<connect gate="G$1" pin="GND@1" pad="33"/>
+<connect gate="G$1" pin="GND@2" pad="34"/>
+<connect gate="G$1" pin="MTG@1" pad="MTG1"/>
+<connect gate="G$1" pin="MTG@2" pad="MTG2"/>
+<connect gate="G$1" pin="Q" pad="7"/>
+<connect gate="G$1" pin="R/!W" pad="18"/>
+<connect gate="G$1" pin="SND" pad="35"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.5X2.5" package="COCO-CART-3.5X2.5">
 <connects>
 <connect gate="G$1" pin="!CART" pad="8"/>
 <connect gate="G$1" pin="!CTS" pad="32"/>
@@ -4554,12 +4740,25 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.1524" drill="0">
+<clearance class="0" value="0.1524"/>
+</class>
+<class number="1" name="supply" width="0.1524" drill="0">
+<clearance class="1" value="0.1524"/>
+</class>
+<class number="2" name="io" width="0.1524" drill="0">
+<clearance class="2" value="0.1524"/>
+</class>
+<class number="3" name="usb" width="0.254" drill="0">
+<clearance class="3" value="0.1524"/>
+</class>
+<class number="4" name="ethernet" width="0.254" drill="0">
+<clearance class="4" value="0.1524"/>
 </class>
 </classes>
 <parts>
 <part name="IC1" library="lpc1xxx-v6" deviceset="LPC1769" device=""/>
-<part name="P1" library="adam_custom" deviceset="COCO-CART" device=""/>
+<part name="P1" library="adam_custom" deviceset="COCO-CART" device="3.5X2.5" value="COCO-CART3.5X2.5"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="IC2" library="v-reg" deviceset="LD117A?*" device="S" technology="33TR" value="LD1117S33"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
@@ -4645,6 +4844,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <part name="JP3" library="adam_custom" deviceset="JUMPER-1206" device="" value="JUMPER-1206"/>
 <part name="JP4" library="adam_custom" deviceset="JUMPER-1206" device="" value="JUMPER-1206"/>
 <part name="U$3" library="adam_custom" deviceset="CC-BY-SA-DOCFIELD" device=""/>
+<part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4670,7 +4870,10 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <instance part="C5" gate="G$1" x="137.16" y="68.58"/>
 <instance part="SUPPLY5" gate="GND" x="193.04" y="60.96"/>
 <instance part="+3V4" gate="G$1" x="172.72" y="76.2"/>
-<instance part="L1" gate="G$1" x="180.34" y="71.12" rot="R270"/>
+<instance part="L1" gate="G$1" x="180.34" y="71.12" smashed="yes" rot="R270">
+<attribute name="NAME" x="179.07" y="67.818" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="175.26" y="68.58" size="1.778" layer="96" rot="R270"/>
+</instance>
 <instance part="C7" gate="G$1" x="129.54" y="71.12"/>
 <instance part="U$1" gate="G$1" x="340.36" y="53.34" rot="R180"/>
 <instance part="SUPPLY6" gate="GND" x="353.06" y="53.34"/>
@@ -4739,11 +4942,12 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <instance part="JP3" gate="G$1" x="114.3" y="96.52" rot="R90"/>
 <instance part="JP4" gate="G$1" x="363.22" y="83.82" rot="R90"/>
 <instance part="U$3" gate="G$1" x="27.94" y="177.8"/>
+<instance part="+3V16" gate="G$1" x="198.12" y="101.6"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="P1" gate="G$1" pin="GND@2"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
@@ -4969,14 +5173,14 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="+5V" class="1">
 <segment>
 <pinref part="P1" gate="G$1" pin="+5V"/>
 <pinref part="IC2" gate="G$1" pin="IN"/>
 <wire x1="58.42" y1="127" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
@@ -4991,18 +5195,11 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VDD(REG)(3V3)2"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="208.28" y1="83.82" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="83.82" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VDD(REG)(3V3)1"/>
-<wire x1="129.54" y1="86.36" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="88.9" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="91.44" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="93.98" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="96.52" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="86.36" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
-<junction x="129.54" y="86.36"/>
 <pinref part="IC1" gate="G$1" pin="VDD(3V3)4"/>
 <wire x1="208.28" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
 <junction x="129.54" y="88.9"/>
@@ -5021,8 +5218,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pinref part="IC1" gate="G$1" pin="VBAT"/>
 <wire x1="137.16" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="78.74" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
-<junction x="129.54" y="83.82"/>
+<wire x1="129.54" y1="78.74" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="73.66" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
 <junction x="137.16" y="96.52"/>
@@ -5162,6 +5358,16 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
 <wire x1="449.58" y1="66.04" x2="434.34" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="66.04" x2="434.34" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD(REG)(3V3)2"/>
+<wire x1="208.28" y1="83.82" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="+3V16" gate="G$1" pin="+3V3"/>
+<wire x1="198.12" y1="83.82" x2="198.12" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VDD(REG)(3V3)1"/>
+<wire x1="198.12" y1="86.36" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="86.36" x2="198.12" y2="86.36" width="0.1524" layer="91"/>
+<junction x="198.12" y="86.36"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
@@ -5731,7 +5937,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <label x="147.32" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="USB2_P" class="3">
 <segment>
 <pinref part="X1" gate="G$1" pin="3"/>
 <wire x1="137.16" y1="137.16" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
@@ -5740,7 +5946,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="147.32" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="USB2_N" class="3">
 <segment>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
@@ -5749,7 +5955,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="147.32" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="USB_N" class="3">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
@@ -5762,7 +5968,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <junction x="162.56" y="132.08"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="USB_P" class="3">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="139.7" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
@@ -5925,7 +6131,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <label x="403.86" y="170.18" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="RD-" class="0">
+<net name="RD_N" class="4">
 <segment>
 <pinref part="IC3" gate="G$1" pin="RD-"/>
 <wire x1="434.34" y1="127" x2="439.42" y2="127" width="0.1524" layer="91"/>
@@ -5942,7 +6148,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <junction x="505.46" y="119.38"/>
 </segment>
 </net>
-<net name="RD+" class="0">
+<net name="RD_P" class="4">
 <segment>
 <pinref part="IC3" gate="G$1" pin="RD+"/>
 <wire x1="434.34" y1="129.54" x2="439.42" y2="129.54" width="0.1524" layer="91"/>
@@ -5958,7 +6164,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <label x="495.3" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TD-" class="0">
+<net name="TD_N" class="4">
 <segment>
 <pinref part="IC3" gate="G$1" pin="TD-"/>
 <wire x1="434.34" y1="134.62" x2="439.42" y2="134.62" width="0.1524" layer="91"/>
@@ -5975,7 +6181,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <label x="495.3" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TD+" class="0">
+<net name="TD_P" class="4">
 <segment>
 <pinref part="IC3" gate="G$1" pin="TD+"/>
 <wire x1="434.34" y1="137.16" x2="439.42" y2="137.16" width="0.1524" layer="91"/>
