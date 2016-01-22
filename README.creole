@@ -1,3 +1,18 @@
+==January 21st, 2016 - Parts Have Arrived!
+{{https://raw.githubusercontent.com/adamgreen/Retrochallenge-2016-January/master/images/20160121-02.jpg}}\\
+Earlier this week a box of fun arrived from DigiKey!  Within it are all the electronic components that I think I need
+for this CoCo cartridge project.\\
+{{https://raw.githubusercontent.com/adamgreen/Retrochallenge-2016-January/master/images/20160121-03.jpg}}\\
+
+===PCB Layout
+{{https://raw.githubusercontent.com/adamgreen/Retrochallenge-2016-January/master/images/20160121-01.png}}\\
+The above images more or less tells the whole story of where I am with the PCB layout for this project.  At this point,
+my goal for the Retrochallenge is to actually do the layout and get the PCB ordered.  I would then solder it together
+and perform some basic bring-up after the Retrochallenge closes.  This would make it ready for me to put it to real use
+in the next Retrochallenge.
+
+
+
 ==January 13th, 2016 - Some Progress!
 ===Schematic Completed
 {{https://raw.githubusercontent.com/adamgreen/Retrochallenge-2016-January/master/images/20160112-01.png}}\\
