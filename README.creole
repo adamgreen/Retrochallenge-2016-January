@@ -1,3 +1,42 @@
+==January 30th, 2016 - Where Am I At?
+I have spent the last week and a half working on the layout of my CoCo Cartridge PCB.  Earlier this morning I completed
+the initial 2-layer layout for the board.\\
+{{https://raw.githubusercontent.com/adamgreen/Retrochallenge-2016-January/master/images/20160130-01.png}}\\
+
+At this point I don't think I will get the order in to have the PCB manufactured before the end of this Retrochallenge
+but it definitely looks like I should be ready to do so during the first week of February.  I always knew that I
+wouldn't have time during this Retrochallenge to get the boards all together and doing something cool in a month.  It
+would have been nice though if I could have had the boards back before the end of the month and started basic bring up.
+Either way, I will still be ready for the next Retrochallenge with actual debugged boards.
+
+===Success?
+This was one of the most challenging Retrochallenge projects I have set for myself so far.  I am a software guy so this
+project was way outside of my comfort zone!  I was really pushed to learn new skills.  Those new skills will definitely
+be useful for other future projects.  Based on that I still consider it to be a personal success!  This was my first PCB
+layout in almost a decade and definitely my most ambitious to date!
+
+===January Work Items
+* Get the layout reviewed by friends who actually do this kind of thing for a living.
+* Print out the layout (the component pads in particular) on paper at 1:1 scale and verify the footprints against the
+  parts that I have already received from DigiKey.
+* Clean up the component labels which will end up on the final silkscreen.
+
+===Work Items to Complete Before Next Retrochallenge
+There are a few things I would like to complete over the next couple of months to prepare for the next Retrochallenge:
+* Incorporate layout feedback.
+* Send off to have the PCBs manufactured.
+* Populate boards and verify basic functionality of each major section:
+** Power Regulation
+** 12MHz Oscillator
+** LPC1769 CPU & JTAG/SWD port
+** UART0
+** uSD Card
+** USB
+** Ethernet
+** CoCo Cartridge Edge to LPC1769 Connections
+
+
+
 ==January 21st, 2016 - Parts Have Arrived!
 {{https://raw.githubusercontent.com/adamgreen/Retrochallenge-2016-January/master/images/20160121-02.jpg}}\\
 Earlier this week a box of fun arrived from DigiKey!  Within it are all the electronic components that I think I need
