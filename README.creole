@@ -1,3 +1,35 @@
+==February 1st, 2016 - Final Thoughts
+I got a good start on my CoCo cartridge project this month.  I hope to get the boards put together and tested before the
+next Retrochallenge so that I can really start having some fun!
+
+===The Competition!
+I read through many of the other entries from my fellow competitors and I have to say that I am really amazed by what I
+saw.  There were so many entries this time, it took awhile to read through them all!  While there were a few
+entrants that seem to have gotten stalled right out of the gate, most didn't.  For the ones that made any progress at
+all, they made for pretty good reads.  I do however have some personal favorites:
+* [[http://www.masswerk.at/rc2016/01/ | MASS_WERK's Maze War for Olivetti M10 and NEC PC-8201A]] - There is just a lot
+  of great documentation here for the retro laptop **Kyocera KC-85** computer and it's siblings, including
+  the **TRS-80 Model 100**.  I have a Model 100 and know that if I was ever going to sit down and do some real coding on
+  it, I would start with this awesome project to get tons of pointers.
+* [[http://wallpaper-one-computer.blogspot.co.uk | Paul Robson's Wallpaper Computer]] - Wow!  So much was accomplished
+  in one short month on this project: wrote an emulator for the SC/MP processor, setup hardware emulation, wrote a
+  monitor that includes basic assembler/disassembler functionality, wrote simple MINOL (high level language like BASIC)
+  interpreter, and ported the classic Star Trek game to MINOL.
+* [[http://16kram.com | 16kram's Port of classic Star Trek text games to the Mattel Aquarius]] - Speaking of classic
+  Star Trek games, this project discusses a bit of the history of these games and then goes about porting one of the
+  earliest versions to the Mattel Aquarius.
+* [[http://vdgtricks.blogspot.com | John W. Linville's Xmas Rush for the TRS-80 MC-10]] - The game is interesting!
+  The platform is interesting!  And as usual the documentation of the whole process is what I have come to expect from
+  John - Excellent!
+* [[https://sites.google.com/site/cocoboot2/home/retrochallenge | Brett M. Gordon's Global Thermonuclear War]] - Global
+  Thermonuclear War for the Tandy Color Computer 2, my current retro machine of choice.  It uses networking over
+  DriveWire to allow for multiplayer gaming action over the Internet.  What does he use as a game server?  An IRC
+  (Internet Relay Chat) server of course!
+* [[http://jimgerrie.blogspot.ca | Jim Gerrie's BASIC Games for the TRS-80 MC-10]] - More MC-10 gaming goodness.  Game
+  ports to this platform often also end up on the CoCo as well so that is another big win!
+
+
+
 ==January 30th, 2016 - Where Am I At?
 I have spent the last week and a half working on the layout of my CoCo Cartridge PCB.  Earlier this morning I completed
 the initial 2-layer layout for the board.\\
