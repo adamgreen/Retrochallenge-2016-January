@@ -1,3 +1,12 @@
+==Attribution
+When working on the schematic and layout for this project, I referenced the following links:\\
+[[http://www.nf6x.net/2013/10/cocoeprompak/]]: Mark J. Blair's CoCoEPROMpak blog.\\
+[[https://github.com/NF6X/CoCoEPROMpak]]: GitHub repository containing [[http://www.cadsoftusa.com | Eagle CAD]] project
+files for Mark J. Blair's CoCoEPROMpak.  I used the CoCo Cartridge device from this Eagle project as the basis for my
+Eagle project.\\
+
+
+
 ==February 1st, 2016 - Final Thoughts
 I got a good start on my CoCo cartridge project this month.  I hope to get the boards put together and tested before the
 next Retrochallenge so that I can really start having some fun!
