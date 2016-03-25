@@ -5164,6 +5164,10 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="449.58" y1="50.8" x2="444.5" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="444.5" y1="50.8" x2="444.5" y2="45.72" width="0.1524" layer="91"/>
 <junction x="444.5" y="45.72"/>
+<pinref part="SD" gate="G$1" pin="GND"/>
+<wire x1="449.58" y1="60.96" x2="444.5" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="444.5" y1="60.96" x2="444.5" y2="50.8" width="0.1524" layer="91"/>
+<junction x="444.5" y="50.8"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
@@ -6336,8 +6340,8 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 </segment>
 <segment>
 <pinref part="SD" gate="G$1" pin="DO"/>
-<wire x1="449.58" y1="58.42" x2="444.5" y2="58.42" width="0.1524" layer="91"/>
-<label x="436.118" y="58.42" size="1.778" layer="95"/>
+<wire x1="449.58" y1="58.42" x2="441.96" y2="58.42" width="0.1524" layer="91"/>
+<label x="433.578" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_DI" class="0">

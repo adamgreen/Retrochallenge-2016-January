@@ -3613,6 +3613,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="50.292" y1="61.9252" x2="50.038" y2="62.1792" width="0.1524" layer="1" curve="90"/>
 <wire x1="50.038" y1="62.1792" x2="48.768" y2="62.1792" width="0.1524" layer="1"/>
 <wire x1="27.36" y1="27.81" x2="27.3304" y2="29.4894" width="0.254" layer="1"/>
+<contactref element="SD" pad="GND"/>
+<via x="11.8872" y="59.436" extent="1-16" drill="0.3302"/>
+<wire x1="11.8" y1="57.89" x2="11.8872" y2="57.89" width="0.1524" layer="1"/>
+<wire x1="11.8872" y1="57.89" x2="11.8872" y2="59.436" width="0.1524" layer="1"/>
 </signal>
 </signals>
 </board>
